@@ -1,0 +1,14 @@
+# api_platform:
+#   mappings:
+#     paths: ['%kernel.project_dir%/src/Entity']
+#   patch_formats:
+#     json: ['application/mergepatch+json']
+#   swagger:
+#     version: 3
+
+api_platform:
+    swagger:
+         api_keys:
+             JWT:
+                name: Authorization
+                type: header
